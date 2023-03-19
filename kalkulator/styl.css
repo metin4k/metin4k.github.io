@@ -7,9 +7,9 @@ body {
 
 input[type=text] {
 	margin: auto;
-	width: 200px;
-	height: 50px;
-	font-size: 40px;
+	width: 350px;
+	height: 100px;
+	font-size: 60px;
 	overflow:auto;
 	font-family: 'Calculator', sans-serif;
 }
@@ -26,10 +26,11 @@ button {
 	background-color: dimgrey;
     color: linen;
     opacity: 1;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	margin: 2px;
 	font-family: 'Calculator', sans-serif;
+	font-size: 40px;
 }
 
 button:hover, #rowne:hover, #kasowanie:hover {
@@ -49,7 +50,7 @@ p {
 	background-color: dimgrey;
     color: linen;
     opacity: 1;
-	width: 108px;
-	height: 50px;
+	width: 208px;
+	height: 100px;
 	margin: 2px;
 }
