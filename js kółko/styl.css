@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(#ff8a00, #e52e71);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+
+
+.pole, #ruch, .reset {
+	vertical-align: top;
+	height: 135px;
+	width: 135px;
+	padding: 0px;
+	margin-top: 5px;
+	font-size: 300%;
+	font-weight: 700;
+}
+
+.kontener {
+	margin: auto;
+	width: fit-content;
+	margin-top: 5%;
+}
+
+
+label {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 300%;
+}
+
+
+
+.reset, #ruch {
+	width: 205px;
+}
+
+
+#przycisk7, #przycisk8, #przycisk9 {
+	margin-bottom: 5px;
+}
+
+.dolne {
+	margin: auto;
+	font-family: fantasy;
+	padding-bottom: 3%;
+}
+
+button[disabled], .pole, #ruch, .reset {
+	background-color: lightgray;
+	color: black;
+	border: 3px black solid;
+}

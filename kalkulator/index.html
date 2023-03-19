@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jakub Złomaniec">
+	<meta name="generator" content="Notepad++">
+	<title>Kalkulator</title>
+	<link href="styl.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+	<style>
+		@import url('https://fonts.cdnfonts.com/css/calculator');
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text" id="pole">
+	</form>
+	<div id="przyciski">
+	
+		<p>
+		<button id="czysc" onclick="czysc()">C</button>
+		<button id="rowne" onclick="rowne()">=</button>
+		<button id="kasowanie" onclick="kasuj()">&larr;</button>
+		</p>
+
+		<p>
+		<button id="1" onclick="liczba(1)">1</button>
+		<button id="2" onclick="liczba(2)">2</button>
+		<button id="3" onclick="liczba(3)">3</button>
+		<button id="dodawanie" onclick="dzialanie('+')">+</button>
+		</p>
+
+		<p>
+		<button id="4" onclick="liczba(4)">4</button>
+		<button id="5" onclick="liczba(5)">5</button>
+		<button id="6" onclick="liczba(6)">6</button>
+		<button id="odejmowanie" onclick="dzialanie('-')">-</button>
+		</p>
+
+		<p>
+		<button id="7" onclick="liczba(7)">7</button>
+		<button id="8" onclick="liczba(8)">8</button>
+		<button id="9" onclick="liczba(9)">9</button>
+		<button id="potega" onclick="dzialanie('^')">^</button>
+		</p>
+
+		<p>
+		<button id="dzielenie" onclick="dzialanie('*')">÷</button>
+		<button id="0" onclick="liczba(0)">0</button>
+		<button id="mnozenie" onclick="dzialanie('*')">×</button>
+		<button id="procent" onclick="dzialanie('%')">mod</button>
+		</p>
+
+	</div>
+	<script src="skrypt.js"></script>
+</body>
+</html>

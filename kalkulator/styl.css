@@ -1,0 +1,55 @@
+body {
+	background:radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+	margin: 0px;
+	display: grid;
+	background-attachment: fixed;
+}
+
+input[type=text] {
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	font-size: 40px;
+	overflow:auto;
+	font-family: 'Calculator', sans-serif;
+}
+
+form {
+	margin: auto;
+	margin-top: 2%;
+}
+
+
+
+button {
+	display: inline-block;
+	background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	font-family: 'Calculator', sans-serif;
+}
+
+button:hover, #rowne:hover, #kasowanie:hover {
+	opacity: 0.8;
+}
+
+p {
+	margin: 1px;
+}
+
+#przyciski {
+	margin:auto;
+}
+
+#kasowanie {
+	display: inline-block;
+	background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+	width: 108px;
+	height: 50px;
+	margin: 2px;
+}
